@@ -8,10 +8,6 @@ from pdf2image import convert_from_path
 
 sys.path.append("poppler-25.12.0") # poppler のあるディレクトリへのパス
 
-
-# APIキーの設定
-#genai.configure(api_key="AIzaSyCl7ZW7UbbstjhKNBjxlTxz6yFAZKj6Axc")
-
 def process_duplex_pdf(pdf_path):
     # PDFを画像に変換
     pages = convert_from_path(pdf_path, dpi=300, poppler_path="poppler-25.12.0\\Library\\bin")
