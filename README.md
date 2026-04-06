@@ -55,3 +55,5 @@ python meishi2csv.py -d [PDFフォルダパス] -o [出力CSV名] -k [APIキー]
 - 個人情報保護: 名刺データは個人情報を含みます。APIを利用する際は、Googleのデータ利用規約を確認し、機密保持に十分注意してください。
 - スキャン順序: PDF内のページ順が「1ページ目＝表面、2ページ目＝裏面」となっていることを前提としています。
 
+---
+Powered by [Gemini](https://gemini.google.com/)
