@@ -15,9 +15,9 @@ pip install -U google-genai pdf2image
 ```
 2. Poppler の配置
 
-PDFを画像に変換するために poppler が必要です。
+PDFを画像に変換するために [poppler](https://poppler.freedesktop.org/) が必要です。
 
-- Windowsの場合: poppler-windows 等からダウンロードし、プロジェクト直下の poppler-25.12.0 ディレクトリに配置してください。
+- Windowsの場合: [poppler-windows](https://github.com/oschwartz10612/poppler-windows/releases/) 等からダウンロードし、プロジェクト直下の poppler-25.12.0 ディレクトリに配置してください。
 - Mac/Linuxの場合: brew install poppler 等でインストールし、コード内の poppler_path 指定を適宜修正してください。
 
 3. APIキーの取得
